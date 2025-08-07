@@ -2776,7 +2776,7 @@ input {
   }
 }
 
-@media (min-width: 2060px) {
+@media (min-width: 1080px) {
   .box1 img {
     width: 70rem;
   }
