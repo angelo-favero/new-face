@@ -22,9 +22,15 @@ $success_message = "Mensagem enviada com sucesso! Entraremos em contato em breve
 
 // Verifica se o formulário foi enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
+    // Debug
+    error_log("POST recebido: " . print_r($_POST, true));
+    
     // Para teste no XAMPP, vamos registrar os dados recebidos em um log
-    file_put_contents('form_log.txt', date('Y-m-d H:i:s') . " - " . print_r($_POST, true) . "\n\n", FILE_APPEND);
+    $log_dir = __DIR__ . '/logs/';
+    if (!is_dir($log_dir)) {
+        mkdir($log_dir, 0755, true);
+    }
+    file_put_contents($log_dir . 'form_log.txt', date('Y-m-d H:i:s') . " - " . print_r($_POST, true) . "\n\n", FILE_APPEND);
     
     // Identifica o tipo de formulário enviado (basead  o na URL de referência)
     $referer = $_SERVER['HTTP_REFERER'] ?? '';
@@ -181,6 +187,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 } else {
+    error_log("Nenhum POST recebido");
     // Acesso direto ao script não é permitido
     header("Location: index.html");
     exit;
