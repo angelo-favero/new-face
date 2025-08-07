@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Teste Flex-box</title>
+</head>
+
+<body>
+    <Header class="header">
+        <nav>
+            <a class="logo" href="index.html">
+                <img src="imgs/logo-chapeu.svg" alt="Logo da Empresa">
+            </a>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <ul class="menu-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portifólio.html">Portifólio</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <main>
+        <section class="pacotes">
+            <div class="servicos-container">
+                <div class="conteudo-servicos">
+                    <div class="texto-servico-pacotes" data-animate>
+                        <h1 class="titulo-servicos" data-animate>Confira Nossos Pacotes</h1>
+                        <p>Com nossos pacotes, <strong class="strong1"> você economiza uma boa grana </strong> e ainda aproveita de vários serviços, sem abrir mão da qualidade New Face!</p>
+                    </div>
+                </div>
+                <div class="plano" data-animate>
+                    <div class="plano-topo1">
+                        <h3>Pacote</h3>
+                        <h2>Silver</h2>
+                        <div class="preco">
+                            <span class="antigo">R$349,99</span>
+                            <span class="atual">R$299,90</span>
+                            <sapn class="economia">Economize R$50,00!</sapn>
+                        </div>
+                    </div>
+                    <ul class="plano-itens">
+                        <li style="background-color: #CCCCCC;">7 Posts Feed Estáticos</li>
+                        <li>3 Stories Estáticos</li>
+                        <li style="background-color: #CCCCCC;">1 Capas Facebook</li>
+                        <li class="x"> Stories Animados</li>
+                        <li style="background-color: #CCCCCC;" class="x"> Cartão Digital</li>
+                        <li class="x"> Vídeo Teaser</li>
+                        <li style="background-color: #CCCCCC;" class="x"> Identidade Visual</li>
+                        <li>3 Revisões</li>
+                    </ul>
+                    <p class="dias-uteis">Entrega em até 7 dias uteis!</p>
+                    <a href="silver.html" class="btn-escolher">Escolher Pacote</a>
+                </div>
+                <div class="plano" data-animate="">
+                    <div class="plano-topo2">
+                        <h3>Pacote</h3>
+                        <h2>Gold</h2>
+                        <div class="preco">
+                            <span class="antigo">R$645,00</span>
+                            <span class="atual">R$500,00</span>
+                            <sapn class="economia">Economize R$145,00!</sapn>
+                        </div>
+                    </div>
+                    <ul class="plano-itens">
+                        <li style="background-color: #CCCCCC;">10 Posts Feed Estáticos</li>
+                        <li>5 Stories Estáticos</li>
+                        <li style="background-color: #CCCCCC;">2 Capas Facebook</li>
+                        <li>1 Stories Animados</li>
+                        <li style="background-color: #CCCCCC;">Cartão Digital</li>
+                        <li class="x">Vídeo Teaser</li>
+                        <li style="background-color: #CCCCCC;" class="x">Identidade Visual</li>
+                        <li>5 Revisões</li>
+                    </ul>
+                    <p class="dias-uteis">Entrega em até 15 dias uteis!</p>
+                    <a href="gold.html" class="btn-escolher">Escolher Pacote</a>
+                </div>
+                <div class="plano" data-animate>
+                    <div class="plano-topo">
+                        <h3>Pacote</h3>
+                        <h2>Platinum</h2>
+                        <div class="preco">
+                            <span class="antigo">R$1305,00</span>
+                            <span class="atual">R$899,90</span>
+                            <sapn class="economia">Economize R$445,00!</sapn>
+                        </div>
+                    </div>
+                    <ul class="plano-itens">
+                        <li style="background-color: #CCCCCC;">15 Posts Feed Estáticos</li>
+                        <li>10 Stories Estáticos</li>
+                        <li style="background-color: #CCCCCC;">3 Capas Facebook</li>
+                        <li>3 Stories Animados</li>
+                        <li style="background-color: #CCCCCC;">Cartão Digital</li>
+                        <li>Vídeo Teaser</li>
+                        <li style="background-color: #CCCCCC;">Identidade Visual</li>
+                        <li>10 Revisões</li>
+                    </ul>
+                    <p class="dias-uteis">Entrega em até 30 dias uteis!</p>
+                    <a href="platinum.html" class="btn-escolher">Escolher Pacote</a>
+                </div>
+            </div>
+            <div class="conteudo-servicos">
+                <div class="texto-servico-pacotes" data-animate>
+                    <p>Caso não queira nenhum dos pacotes preencha o formulario abaixo.</p>
+                </div>
+            </div>
+            <section id="formu">
+                <h2>Formulário</h2>
+                <form action="process-form.php" method="POST" class="formulario">
+                    <div id="form-messages" style="display: none;">
+                        <div class="success-message" style="display: none;">Mensagem enviada com sucesso! Entraremos em contato em breve.</div>
+                        <div class="error-message" style="display: none;">
+                            Ocorreu um erro. Por favor, tente novamente.
+                            <span id="error-details"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 style="font-family: baltore, sans sans-serif; font-size: 24pt; letter-spacing: 2px; ">Vamos Conversar ?</h3>
+                        <p style="font-family: geologica, sans-serif; font-size: 14pt;">
+                            Ao preencher o formulário entraremos em contato para conhecer sua marca e personalizar um projeto de acordo com suas necessidades.
+                            Se preferir, envie um WhatsApp diretamente pelo botão flutuante no canto inferior direito da tela.
+                        </p>
+                    </div>
+                    <div class="campos-text">
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                            <label for="whatsapp">Whatsapp</label>
+                            <input type="text" id="whatsapp" name="whatsapp" placeholder="(00) 00000-0000" required>
+                        </div>
+                        <div>
+                            <label for="nome-empresa">Empresa</label>
+                            <input type="text" id="nome-empresa" name="nome-empresa" placeholder="Nome da sua empresa">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+                        </div>
+
+                        <div class="checkboxes">
+                            <p style="font-family: geologica, sans-serif; font-size: 14pt;">Interesses em</p>
+                            <label><input type="checkbox" name="posts"> Posts</label>
+                            <label><input type="checkbox" name="stories"> Stories</label>
+                            <label><input type="checkbox" name="identidade"> Identidade Visual</label>
+                            <label><input type="checkbox" name="uxui"> UX/UI</label>
+                            <label><input type="checkbox" name="portifolio"> Portifólio</label>
+                            <label><input type="checkbox" name="ecommerce"> E-commerce</label>
+                            <label><input type="checkbox" name="edicao"> Edição de Vídeos</label>
+                            <label><input type="checkbox" name="animado"> Vídeos Animados</label>
+                        </div>
+                        <button type="submit" class="enviar">Solicitar Contato</button>
+                    </div>
+                </form>
+            </section>
+            <div class="conteudo-servicos">
+            </div>
+        </section>
+        <section class="faq-section">
+            <div class="conteudo-servicos">
+                <h1 class="titulo-servicos" data-animate>Perguntas Frequentes</h1>
+            </div>
+            <div class="conteudo-servicos">
+                <div class="texto-servico-pacotes" data-animate>
+                    <p>Encontre respostas para as dúvidas mais comuns sobre nossos serviços.</p>
+                </div>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item" data-animate>
+                    <div class="faq-question">
+                        <h3>Qual o prazo de entrega para serviços personalizados?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Os prazos variam conforme a complexidade do projeto. Para serviços personalizados, normalmente trabalhamos com prazos entre 7 e 30 dias úteis, sendo definidos após análise detalhada da sua necessidade.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-animate>
+                    <div class="faq-question">
+                        <h3>Como funciona o processo de revisão dos materiais?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Cada pacote inclui um número específico de revisões (3, 5 ou 10). Você poderá solicitar ajustes dentro do escopo contratado até que o material atenda suas expectativas, respeitando o limite de revisões do seu pacote.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-animate>
+                    <div class="faq-question">
+                        <h3>Posso solicitar serviços avulsos fora dos pacotes?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Oferecemos todos os nossos serviços de forma avulsa. Basta entrar em contato conosco pelo WhatsApp ou formulário de contato para solicitar um orçamento personalizado.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-animate>
+                    <div class="faq-question">
+                        <h3>Como é feito o pagamento dos serviços?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Aceitamos diversas formas de pagamento como PIX, transferência bancária, cartão de crédito e boleto. Para pacotes, trabalhamos com 50% de entrada e 50% na entrega, ou pagamento integral com desconto.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-animate>
+                    <div class="faq-question">
+                        <h3>O que inclui o serviço de Identidade Visual?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nossa identidade visual inclui desenvolvimento de logomarca, definição de paleta de cores, escolha tipográfica, criação de elementos gráficos de suporte e manual básico de uso da marca.</p>
+                    </div>
+                </div>
+                <div class="conteudo-servicos">
+                    <p class="texto-termos">
+                        Ao contratar qualquer serviço, você concorda com nossos<a href="termos-de-uso.html" class="texto-termos">Termos de Uso</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Logo do site -->
+                <div class="footer-logo">
+                    <h1><a href="#"><img src="imgs/footer/site-newface2.svg" alt="Logo"></a></h1>
+                </div>
+
+                <!-- Frase do site -->
+                <div class="footer-phrase">
+                    <p>Uma nova cara <br> para seu negócio.</p>
+                </div>
+
+                <!-- Email -->
+                <div class="footer-email">
+                    <p>newface@contato.com</p>
+                </div>
+
+                <!-- Redes sociais -->
+                <div class="footer-social">
+                    <a href="#"><img src="imgs/footer/instagram.png" alt="Instagram" class="social-media-icon"></a>
+                    <a href="#"><img src="imgs/footer/behance.png" alt="Behance" class="social-media-icon"></a>
+                    <a href="#"><img src="imgs/footer/linkedin.png" alt="LinkedIn" class="social-media-icon"></a>
+                </div>
+            </div>
+
+            <!-- Copy -->
+            <div class="footer-copy">
+                <p>© New Face - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <div id="whatsapp-button" class="whatsapp-button">
+        <a href="https://wa.me/5535999269734?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços" target="_blank" rel="noopener noreferrer" title="Fale conosco pelo WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <div id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <script src="backToTop.js"></script>
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+    <script src="scrol.js"></script>
+    <script src="active-menu.js"></script>
+    <script src="form-handler.js"></script>
+    <script src="faq.js"></script>
+</body>
+
+</html>

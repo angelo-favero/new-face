@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>New Face</title>
+</head>
+
+<body>
+    <Header class="header">
+        <nav>
+            <a class="logo" href="index.html">
+                <img src="imgs/logo-chapeu.svg" alt="Logo da Empresa">
+            </a>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <ul class="menu-list">
+                <li><a href="#top" class="active">Home</a></li>
+                <li><a href="portifólio.html">Portifólio</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <main>
+        <section class="carousel-section">
+            <div class="carousel-container" data-animate>
+                <div class="carousel-track">
+                    <div class="carousel-slide ativo">
+                        <a href="#" class="slide-link">
+                            <picture>
+                                <source media="(max-width: 480px)" srcset="imgs/phone/slide-1-phone.png">
+                                <img src="imgs/index/Slide1.png" alt="cliques">
+                            </picture>
+                        </a>
+                        <a href="servicos.html" class="slide-button">Saiba mais</a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#" class="slide-link">
+                            <picture>
+                                <source media="(max-width: 480px)" srcset="imgs/phone/slide2-mobile.png">
+                                <img src="imgs/index/Slide2.png" alt="ideias">
+                            </picture>
+                        </a>
+                        <a href="servicos.html" class="slide-button">Saiba mais</a>
+                    </div>
+                    <div class="carousel-slide">
+                        <a href="#" class="slide-link">
+                            <picture>
+                                <source media="(max-width: 480px)" srcset="imgs/phone/slide3-mobile.png">
+                                <img src="imgs/index/Slide3.png" alt="identidade">
+                            </picture>
+                        </a>
+                        <a href="servicos.html" class="slide-button">Saiba mais</a>
+                    </div>
+                </div>
+                <button class="carousel-button prev" aria-label="Slide anterior">←</button>
+                <button class="carousel-button next" aria-label="Próximo slide">→</button>
+                <div class="carousel-nav">
+                    <button class="nav-indicator active"></button>
+                    <button class="nav-indicator"></button>
+                    <button class="nav-indicator"></button>
+                </div>
+            </div>
+        </section>
+        <section class="quadrante1 galeria" id="projetos">
+            <div class="box1" data-animate>
+                <picture>
+                    <a href="portifólio.html#identidade-visual">
+                        <img src="imgs/Hortfit.png" alt="logo Hortfit">
+                    </a>
+                </picture>
+            </div>
+            <div class="box2" data-animate>
+                <picture>
+                    <a href="portifólio.html#identidade-visual">
+                        <img src="imgs/La2.png" alt="logo La">
+                    </a>
+                </picture>
+            </div>
+        </section>
+        <section class="quadrante2 galeria">
+            <div class="box3" data-animate>
+                <a href="portifólio.html#logos">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="imgs/phone/paris-phone.png">
+                        <img src="imgs/paris.png" alt="logo Paris Parfum" loading="lazy">
+
+                    </picture>
+                </a>
+            </div>
+            <div class="box4" data-animate>
+                <a href="portifólio.html#logos">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="imgs/phone/harrmony-phone.png">
+                        <img src="imgs/harmony.png" alt="logo harmony">
+                    </picture>
+                </a>
+            </div>
+            <div class="box5" data-animate>
+                <a href="portifólio.html#logos">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="imgs/phone/rep-phone.png">
+                        <img src="imgs/rep.png" alt="logo Rep Babilônia">
+                    </picture>
+                </a>
+            </div>
+            <div class="box6" data-animate>
+                <a href="portifólio.html#logos">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="imgs/phone/conexao-phone.png">
+                        <img src="imgs/conexao.png" alt="Logo Conexão035">
+                    </picture>
+                </a>
+            </div>
+        </section>
+        <section class="quadrante3 galeria">
+            <div class="box7" data-animate>
+                <picture>
+                    <a href="portifólio.html#social-media">
+                        <img src="imgs/acai2.png" alt="Posts Açaí">
+                    </a>
+                </picture>
+            </div>
+            <div class="box8" data-animate>
+                <picture>
+                    <a href="portifólio.html#social-media">
+                        <img src="imgs/Hamburguer2.png" alt="Posts Hamburguer">
+                    </a>
+                </picture>
+            </div>
+        </section>
+        <section class="retangulo2" data-animate>
+            <div class="box">
+                <a href="servicos.html">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="imgs/phone/footer-mobile.png">
+                        <img src="imgs/Footer.png" alt="Footer">
+                    </picture>
+                </a>
+                <a href="servicos.html" class="slide-button">Clique aqui</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Logo do site -->
+                <div class="footer-logo">
+                    <h1><a href="#"><img src="imgs/footer/site-newface2.svg" alt="Logo"></a></h1>
+                </div>
+
+                <!-- Frase do site -->
+                <div class="footer-phrase">
+                    <p>Uma nova cara <br>para seu negócio.</p>
+                </div>
+
+                <!-- Email -->
+                <div class="footer-email">
+                    <p>newface@contato.com</p>
+                </div>
+
+                <!-- Redes sociais -->
+                <div class="footer-social">
+                    <a href="#"><img src="imgs/footer/instagram.png" alt="Instagram" class="social-media-icon"></a>
+                    <a href="#"><img src="imgs/footer/behance.png" alt="Behance" class="social-media-icon"></a>
+                    <a href="#"><img src="imgs/footer/linkedin.png" alt="LinkedIn" class="social-media-icon"></a>
+                </div>
+            </div>
+
+            <!-- Copy -->
+            <div class="footer-copy">
+                <p>© New Face - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <div id="whatsapp-button" class="whatsapp-button">
+        <a href="https://wa.me/5535999269734?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços" target="_blank" rel="noopener noreferrer" title="Fale conosco pelo WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <div id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i> <!-- Você pode trocar este ícone -->
+    </div>
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+    <script src="scrol.js"></script>
+    <script src="form-handler.js"></script>
+</body>
+
+</html>

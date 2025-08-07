@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Teste Flex-box</title>
+</head>
+
+<body style="background-color: #1a1a1a;">
+    <Header class="header">
+        <nav>
+            <a class="logo" href="index.html">
+                <img src="imgs/logo-chapeu.svg" alt="Logo da Empresa">
+            </a>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <ul class="menu-list">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="portifólio.html">Portifólio</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <main>
+        <section class="apresentacao">
+            <div class="slider-container">
+                <!-- Item 1: Ângelo Fávero -->
+                <div class="slider-item active" id="slider-1">
+                    <div class="retangulo-apre">
+                        <h1 class="nome">Ângelo Fávero</h1>
+                        <p class="autor">Autor</p>
+                    </div>
+                </div>
+
+                <!-- Item 2: Logo New Face -->
+                <div class="slider-item" id="slider-2">
+                    <div class="logo-container">
+                        <img src="imgs/Logo-principal.svg" alt="New Face" class="logo-newface-slider">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sobre-mim">
+            <h2 class="titulo-sobre" data-animate>SOBRE MIM</h2>
+            <div class="conteudo-sobre">
+                <div class="imagem-container">
+                    <img src="imgs/sobre/Foto Perfil.png" alt="Autor" class="imagem-autor" data-animate>
+                </div>
+                <div class="texto-sobre" data-animate>
+                    <p>Sou um desenvolvedor apaixonado por arte e design. Minha jornada começou no design gráfico, em uma agência de publicidade,
+                        onde mergulhei de cabeça em projetos de branding, edição de vídeo, motion design, marketing, naming e UX/UI.
+                        Mas, com o tempo, senti uma necessidade de entender como essas ideias ganhavam vida em códigos, como elas se transformavam em sites e aplicações incríveis.
+                        E foi aí que decidi cursar Ciência da Computação, onde expandi meus horizontes para diversas tecnologias e práticas de criação de sites,
+                        o que acabou dando origem à New Face, um projeto que reflete essa mistura única de criatividade e técnica!</p>
+                </div>
+            </div>
+            <div class="citacao" data-animate>
+                <h3>"Criatividade e estratégia para marcas que querem se destacar."</h3>
+            </div>
+        </section>
+        <section class="sobre-newface">
+            <h2 class="titulo-sobre-newface" data-animate>SOBRE A NEW FACE</h2>
+            <div class="conteudo-sobre-newface">
+                <div class="texto-sobre-newface" data-animate>
+                    <p>A New Face — que em inglês significa "nova cara" é mais do que um nome, é uma missão.
+                        Meu objetivo é simples, mas poderoso: transformar a identidade do seu negócio e a experiência do usuário com uma abordagem fresca e inovadora.
+                        Seja redesenhando a presença digital da sua marca, criando interfaces intuitivas ou desenvolvendo soluções que conectam pessoas e propósitos,
+                        a New Face existe para trazer um olhar novo, moderno e funcional. É sobre capturar a essência do que você faz e traduzi-la em algo que não só impressiona,
+                        mas também engaja, surpreende e facilita a vida de quem interage com seu projeto.
+                    </p>
+                </div>
+                <div class="imagem-container-newface">
+                    <img src="imgs/Logo-principal.svg" alt="NewFace" class="imagem-newface" data-animate>
+                </div>
+            </div>
+        </section>
+        <section class="diferencial">
+            <h2 class="titulo-diferencial" data-animate>O DIFERENCIAL</h2>
+            <h2 class="titulo-diferencial2" data-animate>NEW FACE</h2>
+            <div class="conteudo-sobre-newface">
+                <div class="retangulo-diferencial" data-animate>
+                    <div class="texto-diferencial">
+                        <p>Na New Face, unimos o conhecimento da sociedade através da psicologia, sociologia e filosofia para decifrar tendências culturais e criar estratégias alinhadas ao futuro.
+                            Combinamos essa visão com tecnologia de ponta, garantindo que cada projeto seja desenvolvido com atenção aos mínimos detalhes.
+                            Nossa equipe mergulha em cada desafio, analisando possibilidades e transformando ideias em um planejamento estratégico eficiente e um design conceitualmente refinado.
+                            Priorizamos objetividade, clareza e transparência, estabelecendo parcerias sólidas com empresas que enxergam além e buscam inovação para crescer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="valores">
+                    <div class="valor-itens" data-animate>
+                        <img src="imgs/sobre/icon-flecha.svg" alt="missão" class="missao">
+                        <h3 class="titulo-valores">MISSÃO</h3>
+                        <p class="texto-valores">Nossa missão é transformar ideias em identidades visuais autênticas e impactantes.
+                            Ajudando clientes a se destacarem no digital.
+                        </p>
+                    </div>
+                    <div class="valor-itens" data-animate>
+                        <img src="imgs/sobre/icone-binoculo.svg" alt="visão" class="missao">
+                        <h3 class="titulo-valores">VISÃO</h3>
+                        <p class="texto-valores">Ser referência em identidade visual e presença digital, unindo estratégia,
+                            criatividade e tecnologia para impulsionar marcas com autenticidade e inovação.
+                        </p>
+                    </div>
+                    <div class="valor-itens" data-animate>
+                        <img src="imgs/sobre/icone-valor.svg" alt="valores" class="missao">
+                        <h3 class="titulo-valores">VALORES</h3>
+                        <p class="texto-valores">Ser totalmente transparente com o cliente, cumprir com todas as responsabilidades em tempo
+                            ágil e entregar o que a de melhor no mercado.
+                        </p>
+                    </div>
+                    <div class="chamada">
+                        <h3 class="titulo-sobre" data-animate>Vamos criar algo incrível juntos?</h3>
+                        <p class="texto-valores" data-animate>Entre em contato e descubra como podemos transformar sua visão em realidade.</p>
+                        <a href="contato.html" class="button">Entrar em contato</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <!-- Logo do site -->
+                <div class="footer-logo">
+                    <h1><a href="#"><img src="imgs/footer/site-newface2.svg" alt="Logo"></a></h1>
+                </div>
+
+                <!-- Frase do site -->
+                <div class="footer-phrase">
+                    <p>Uma nova cara <br> para seu negócio.</p>
+                </div>
+
+                <!-- Email -->
+                <div class="footer-email">
+                    <p>newface@contato.com</p>
+                </div>
+
+                <!-- Redes sociais -->
+                <div class="footer-social">
+                    <a href="#"><img src="imgs/footer/instagram.png" alt="Instagram" class="social-media-icon"></a>
+                    <a href="#"><img src="imgs/footer/behance.png" alt="Behance" class="social-media-icon"></a>
+                    <a href="#"><img src="imgs/footer/linkedin.png" alt="LinkedIn" class="social-media-icon"></a>
+                </div>
+            </div>
+
+            <!-- Copy -->
+            <div class="footer-copy">
+                <p>© New Face - Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <div id="whatsapp-button" class="whatsapp-button">
+        <a href="https://wa.me/5535999269734?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços" target="_blank" rel="noopener noreferrer" title="Fale conosco pelo WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <div id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <script src="backToTop.js"></script>
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+    <script src="scrol.js"></script>
+    <script src="active-menu.js"></script>
+    <script src="form-handler.js"></script>
+</body>
+
+</html>
